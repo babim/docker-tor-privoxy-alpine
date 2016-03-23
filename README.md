@@ -5,7 +5,7 @@ Thanks rdsubhas
 The smallest (**15 MB**) docker image with Tor and Privoxy on Alpine Linux.
 
 ```
-docker run -d -p 8118:8118 -p 9050:9050 babim/tor-privoxy
+docker run -d -p 8118:8118 -p 9050:9050 babim/privoxy:notor
 curl --proxy localhost:8118 https://www.google.com
 ```
 
