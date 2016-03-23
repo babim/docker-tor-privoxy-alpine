@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-EXPOSE 8118 9050
+EXPOSE 8118
 
 RUN echo '@testing http://nl.alpinelinux.org/alpine/edge/testing' \
     >> /etc/apk/repositories && \
