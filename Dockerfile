@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM babim/alpinebase
 
 EXPOSE 8118
 
