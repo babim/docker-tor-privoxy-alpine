@@ -1,10 +1,8 @@
-FROM alpine:edge
+FROM babim/alpinebase
 
 EXPOSE 8118 9050
 
-RUN echo '@testing http://nl.alpinelinux.org/alpine/edge/testing' \
-    >> /etc/apk/repositories && \
-    apk --update add privoxy tor@testing runit@testing
+RUN apk --update add privoxy
 
 COPY service /etc/service/
 
