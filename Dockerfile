@@ -1,4 +1,4 @@
-FROM babim/alpinebase
+FROM babim/alpinebase:edge
 
 EXPOSE 8118 9050
 RUN echo '@testing http://nl.alpinelinux.org/alpine/edge/testing' \
