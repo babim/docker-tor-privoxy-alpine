@@ -1,3 +1,6 @@
+[![](https://images.microbadger.com/badges/image/babim/privoxy.svg)](https://microbadger.com/images/babim/privoxy "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/babim/privoxy.svg)](https://microbadger.com/images/babim/privoxy "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/babim/privoxy:notor.svg)](https://microbadger.com/images/babim/privoxy:notor "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/babim/privoxy:notor.svg)](https://microbadger.com/images/babim/privoxy:notor "Get your own version badge on microbadger.com")
+
 Thanks rdsubhas
 
 # tor-privoxy-alpine
